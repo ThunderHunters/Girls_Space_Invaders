@@ -21,3 +21,11 @@ Classic space invaders gameplay with modern graphics.
 Extra crab appears at random intervals for bonus points.
 CRT TV effect for a nostalgic feel.
 Victory and defeat messages for a clear game outcome.
+
+Instructions:
+Download all of the game files into a folder.
+There are 5 python files and 3 of them need to be modified to adjust the path to the download folder where you locate the files for the game.
+Adjust the file path for the Girls_Space_Invaders.py, alien.py, and player.py for the graphics and audio files to play.
+The Girls_Space_Invaders.py is the file that will run the game.
+Enjoy!
+
