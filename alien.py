@@ -8,8 +8,9 @@ class Alien(pygame.sprite.Sprite):
 
         super().__init__()
 
-        # Construct the file path based on the provided color
-        file_path = "/Users/acapol200/Documents/Angela Capolino Docs/2023 SAVE FOLDER/mac python projects/new invaders/" + color + ".png"
+        # Construct the file path based on the provided color ## Here you will need to change the file path to your unique folder on your computer where you downloaded the files.##
+        # REPLACE XXX WITH YOUR FILE PATH # 
+        file_path = "XXX" + color + ".png"
 
         # Load the jellyfish image with transparency
         self.image = pygame.image.load(file_path).convert_alpha()
