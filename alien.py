@@ -37,7 +37,7 @@ class Extra(pygame.sprite.Sprite):
 
         # Load the extra crab image with transparency   ## Here you will need to change the file path to your unique folder on your computer where you downloaded the files.##
         # REPLACE XXX WITH YOUR FILE PATH # 
-        self.image = pygame.image.load("XXX").convert_alpha()
+        self.image = pygame.image.load("XXX/extra.png").convert_alpha()
 
         # Set the initial position and speed based on the provided side
         if side == "right":
